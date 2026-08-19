@@ -39,7 +39,6 @@ So: what's here is a fraction. What's below is the honest map.
 | **[Myles](https://github.com/ElamOlame31/Myles)** | The circuit breaker for AI agents. A zero-config local proxy that stops runaway loops and budget blowouts before they burn your API bill — any agent, any provider, no code changes. | Public · `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
-| **Adaptive adversarial defence for ML-based IDS** | Intrusion detection models look excellent on clean traffic and collapse under adversarial input. Built a two-tier defence that watches its own confidence and stability, then escalates from lightweight adversarial retraining to GAN-assisted reinforcement as the threat worsens — generating synthetic samples aimed at the fragile regions of the decision boundary rather than augmenting blindly. On CIC-IDS2017 (2.8M flows, FGSM / PGD / GAN attacks): **attack success rate down 60%**, false positives under attack **35.2% → 11.3%**. | Team research · `XGBoost` `WGAN-GP` |
 
 > The theme, if you want one: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
 
@@ -80,6 +79,7 @@ Things that exist, work, and are still sitting on a drive somewhere. Category tw
 | **InOutVision** | Real-time intrusion and attendance detection. Recognises employees on camera, logs attendance automatically, and flags anyone who doesn't belong. | `YOLOv11` `FaceNet` `Computer vision` |
 | **RANSAC plane detection** | Finds planar structures in 3D LiDAR point clouds so an autonomous vehicle can tell road from obstacle — built to improve navigation accuracy. | `LiDAR` `Point clouds` `Autonomous vehicles` |
 | **Vehicle tracking & path estimation** | Tracks vehicles through a scene and estimates where they are heading. | `Computer vision` `State estimation` |
+| **Adaptive adversarial defence for ML-based IDS** | Intrusion detection models look excellent on clean traffic and collapse under adversarial input. A two-tier defence that watches its own confidence and stability, then escalates from lightweight adversarial retraining to GAN-assisted reinforcement as the threat worsens — generating synthetic samples aimed at the fragile regions of the decision boundary rather than augmenting blindly. On CIC-IDS2017 (2.8M flows): **attack success rate down 60%**, false positives under attack **35.2% → 11.3%**. Team research. | `XGBoost` `WGAN-GP` `FGSM / PGD` |
 
 Getting pushed as I dig them out.
 
@@ -102,6 +102,25 @@ graph LR
 ```
 
 Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught me the thing that transfers everywhere: **if you can't measure it, you don't understand it yet.** Turns out that applies to AI agents about as well as it applies to solar cells.
+
+---
+
+### The paperwork
+
+| | |
+|---|---|
+| **MEng, Electrical & Computer Engineering** — concentration in Applied AI | University of Ottawa · 2025–2026 |
+| **BASc, Electrical Engineering** — Systems Engineering specialisation | University of Ottawa · 2021–2025 |
+| **BSc, Computing Technology** | University of Ottawa · 2021–2025 |
+| **CESS, Mathematics & Sciences** | Lycée Prince de Liège, Belgium · 2018–2021 |
+
+Yes, two bachelors with the same end date. That combination is built to take five years. I did it in four and graduated **valedictorian** — which mostly meant writing a speech on top of everything else. A few scholarships came along the way, some for research, some for grades.
+
+In fairness, those four years weren't only coursework. They also held three years of semiconductor research at SUNLAB, a company I was running on the side, and clients who were entirely unmoved by the existence of my midterms.
+
+Do not recommend. Would do again.
+
+The Belgian one ran in French with English and Dutch on the side, so I now get to be confused in three languages.
 
 ---
 
