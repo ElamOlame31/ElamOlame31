@@ -8,6 +8,18 @@
 
 ---
 
+### What's next
+
+Just finished an **MEng in Electrical & Computer Engineering, Applied AI** at the University of Ottawa.
+
+> Building things. Learning. Growing. Figuring out what's next.
+
+That last part isn't filler. I've spent a few years shipping other people's ideas and a handful of my own. Right now I'm working out what deserves the next several years — which problem, which idea, which company.
+
+Taking my time with that one. Open to being convinced.
+
+---
+
 ### Why this profile looks emptier than my hard drive
 
 I've built more things than I've remembered to publish.
@@ -18,7 +30,7 @@ So: what's here is a fraction. What's below is the honest map.
 
 ---
 
-### What I'm building right now
+### Where my energy went lately
 
 | Project | What it is | Status |
 |---|---|---|
@@ -36,10 +48,10 @@ A real chunk of my work sits behind NDAs — client systems, internal platforms,
 
 | Domain | What I did | Stack |
 |---|---|---|
-| Attack surface management | Asset discovery + AI triage engine for exposure assessment | `Next.js` `FastAPI` `Postgres` |
-| Threat-hunting SaaS | Full product, concept to deploy, two-week build | `Next.js` `Prisma` `Inngest` `Stripe` |
-| AI automation for SMBs | Conversational AI, web and mobile delivery, as CTO | `Python` `TypeScript` `LLM APIs` |
-| Applied AI consulting | Systems across mining, energy, tourism, finance, infrastructure — clients in North America, Europe, and Africa | varied |
+| **Cybersecurity** · attack surface management | Built the discovery-to-triage pipeline: map an organisation's entire external footprint, then let an AI engine rank what an attacker would actually reach first | `Next.js` `FastAPI` `Postgres` |
+| **Cybersecurity** · threat intelligence SaaS | Took a threat-hunting platform from empty repo to deployed product in two weeks — auth, billing, background jobs, the whole spine | `Next.js` `Prisma` `Inngest` `Stripe` |
+| **AI automation** · SMB systems | As CTO: owned architecture and delivery across every client system in flight — conversational AI, web platforms, mobile apps | `Python` `TypeScript` `LLM APIs` |
+| **Applied AI** · cross-industry | Shipped systems into mining, energy, tourism, finance and infrastructure for clients on three continents — usually starting from zero domain knowledge | varied |
 
 Happy to talk through any of it in a conversation. Just can't put it in a repo.
 
@@ -69,25 +81,13 @@ Three years at [SUNLAB](https://www.sunlab.ca/) under Dr. Karin Hinzer taught me
 
 **Building** — Python · TypeScript · Next.js · FastAPI · Postgres · Prisma
 **Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
-**Security** — agent authorization · attack surface management · policy engines
+**Cybersecurity** — attack surface management · threat intelligence · agent authorization · policy engines
 **Roots** — MATLAB · SEM characterisation · embedded systems · FPGA · signal processing
 
 No badge wall. If it's on this list I've shipped something with it.
 
 ---
 
-### What's next
-
-Just finished an **MEng in Electrical & Computer Engineering, Applied AI** at the University of Ottawa.
-
-> Building things. Learning. Growing. Figuring out what's next.
-
-That last part isn't filler. I've spent a few years shipping other people's ideas and a handful of my own. Right now I'm working out what deserves the next several years — which problem, which idea, which company.
-
-Taking my time with that one. Open to being convinced.
-
 **Reach me:** [portfolio](https://elamolamemugabo.com/) · [LinkedIn](https://www.linkedin.com/in/elam-olame-mugabo/)
-
----
 
 <sub>A nerd who likes building things in his free (full) time :)</sub>
