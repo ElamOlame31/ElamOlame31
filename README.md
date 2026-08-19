@@ -134,7 +134,7 @@ In fairness, those four years weren't only coursework. They also held three year
 
 Do not recommend. Would do again.
 
-That last one is a Belgian curriculum, taught in Kinshasa — which makes "where did you go to school" a longer answer than most people are expecting. I'm fluent in French, English and Lingala, and still fighting to hold on to Swahili and Dutch, both of which are quietly packing their bags.
+That last one is a Belgian curriculum, taught in Kinshasa (DR Congo) — which makes "where did you go to school" a longer answer than most people are expecting. I'm fluent in French, English and Lingala, and still fighting to hold on to Swahili and Dutch, both of which are quietly packing their bags.
 
 ---
 
