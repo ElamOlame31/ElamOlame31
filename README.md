@@ -76,6 +76,7 @@ Things that exist, work, and are still sitting on a drive somewhere. Category tw
 
 | Project | What it does | Stack |
 |---|---|---|
+| **Novouza** | Short-form video for local discovery. A feed of ~90-second clips of restaurants, activities and experiences, so you find something worth doing near you instead of reading twelve reviews. Idea to MVP: market research, scope, UX, build — Ottawa–Gatineau as the first market, around 100 venues. | `Next.js` `React` `LLM APIs` |
 | **InOutVision** | Real-time intrusion and attendance detection. Recognises employees on camera, logs attendance automatically, and flags anyone who doesn't belong. | `YOLOv11` `FaceNet` `Computer vision` |
 | **RANSAC plane detection** | Finds planar structures in 3D LiDAR point clouds so an autonomous vehicle can tell road from obstacle — built to improve navigation accuracy. | `LiDAR` `Point clouds` `Autonomous vehicles` |
 | **Vehicle tracking & path estimation** | Tracks vehicles through a scene and estimates where they are heading. | `Computer vision` `State estimation` |
@@ -126,7 +127,7 @@ That last one is a Belgian curriculum, taught in Kinshasa — which makes "where
 
 ### Toolbox
 
-**Building** — Python · TypeScript · Next.js · FastAPI · Postgres · Prisma
+**Building** — Python · TypeScript · React / Next.js · FastAPI · Postgres · Prisma
 **Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
 **Cybersecurity** — attack surface management · threat intelligence · adversarial ML (FGSM · PGD · WGAN-GP) · agent authorization · policy engines
 **Crypto & networks** — applied cryptography · identity and key management · signed logs · network measurement
