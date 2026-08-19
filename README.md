@@ -166,6 +166,7 @@ The second is reading. A lot of reading.
 
 **Currently reading**
 
+- *The Bible* — every day, or at least that's the arrangement I have with myself
 - *Understanding Your Potential* — Myles Munroe
 
 **Finished in 2026**
