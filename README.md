@@ -38,7 +38,6 @@ So: what's here is a fraction. What's below is the honest map.
 |---|---|---|
 | **Myles** — *started life as Ghost* | The circuit breaker for AI agents. A zero-config local proxy that sits between your tooling and whichever provider you use, and keeps the bill honest two ways: it routes mechanical work to a cheap model and real intent to the strong one — then checks the cheap answer actually held up before taking credit for the savings — and it cuts the loop when an agent starts burning money going in circles. Any agent, any provider, no code changes. | `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
-| **[anyone.today](https://anyone.today/)** | *"When you can't talk to anyone, talk to anyone.today."* Anonymous one-to-one chat on a three-minute timer. Whoever is online gets paired at random, both sides get a throwaway handle that changes every single conversation, and the thread is destroyed when the timer runs out. Nothing is retained unless someone files a report — that is the only path to a human reviewer. Or you skip the stranger and talk to Echo, the AI, instead. Of the first 179 conversations, 131 were with a stranger and 48 with Echo. | Live |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
 
 Mid-session:
@@ -83,10 +82,11 @@ Happy to talk through any of it in a conversation. Just can't put it in a repo.
 
 ### The back catalogue
 
-Things that exist, work, and are still sitting on a drive somewhere. Category two from above.
+Older work. Some of it still running, most of it sitting on a drive somewhere. Category two from above.
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[anyone.today](https://anyone.today/)** | *"When you can't talk to anyone, talk to anyone.today."* Anonymous one-to-one chat on a three-minute timer. Whoever is online gets paired at random, both sides get a throwaway handle that changes every single conversation, and the thread is destroyed when the timer runs out. Nothing is retained unless someone files a report — that is the only path to a human reviewer. Or you skip the stranger and talk to Echo, the AI, instead. Of the first 179 conversations, 131 were with a stranger and 48 with Echo. Built a while ago, still running. | `Real-time web app` |
 | **Novouza** | Short-form video for local discovery. A feed of ~90-second clips of restaurants, activities and experiences, so you find something worth doing near you instead of reading twelve reviews. Idea to MVP: market research, scope, UX, build — Ottawa–Gatineau as the first market, around 100 venues. | `Next.js` `React` `LLM APIs` |
 | **InOutVision** | Real-time intrusion and attendance detection. Recognises employees on camera, logs attendance automatically, and flags anyone who doesn't belong. | `YOLOv11` `FaceNet` `Computer vision` |
 | **RANSAC plane detection** | Finds planar structures in 3D LiDAR point clouds so an autonomous vehicle can tell road from obstacle — built to improve navigation accuracy. | `LiDAR` `Point clouds` `Autonomous vehicles` |
