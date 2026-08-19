@@ -18,6 +18,8 @@ That last part isn't filler. I've spent a few years shipping other people's idea
 
 Taking my time with that one. Open to being convinced.
 
+Meanwhile I'm **CTO at NOA** — the all-in-one money app for the globally connected, sitting across fintech and education. *Beyond borders, beyond limits.* I own technical strategy and execution there: architecture decisions, platform development, cross-functional delivery.
+
 ---
 
 ### Why this profile looks emptier than my hard drive
@@ -40,6 +42,17 @@ So: what's here is a fraction. What's below is the honest map.
 | **Adaptive adversarial defence for ML-based IDS** | Intrusion detection models look excellent on clean traffic and collapse under adversarial input. Built a two-tier defence that watches its own confidence and stability, then escalates from lightweight adversarial retraining to GAN-assisted reinforcement as the threat worsens — generating synthetic samples aimed at the fragile regions of the decision boundary rather than augmenting blindly. On CIC-IDS2017 (2.8M flows, FGSM / PGD / GAN attacks): **attack success rate down 60%**, false positives under attack **35.2% → 11.3%**. | Team research · `XGBoost` `WGAN-GP` |
 
 > The theme, if you want one: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
+
+---
+
+### When the network is the adversary
+
+Two halves of the same problem: making secure communication tools work in environments built to stop them.
+
+| Project | What it is | Status |
+|---|---|---|
+| **Phoenix Key** | Portable, revocable identity for self-hosted communication tools. Lose your device to a seizure and today your identity — and your entire trusted network — goes with it. Phoenix Key lets you say *"this is my new key now"* and bring all of it back. Established cryptography, a signed log, no blockchain. | In progress |
+| **NetScope** | Field measurement for restricted network environments. Teams deploying communication tools into allow-list intranets are guessing what the network actually lets through. NetScope replaces that guess with evidence — gathered safely, from inside the network itself. | In progress |
 
 ---
 
@@ -66,6 +79,7 @@ Things that exist, work, and are still sitting on a drive somewhere. Category tw
 |---|---|---|
 | **InOutVision** | Real-time intrusion and attendance detection. Recognises employees on camera, logs attendance automatically, and flags anyone who doesn't belong. | `YOLOv11` `FaceNet` `Computer vision` |
 | **RANSAC plane detection** | Finds planar structures in 3D LiDAR point clouds so an autonomous vehicle can tell road from obstacle — built to improve navigation accuracy. | `LiDAR` `Point clouds` `Autonomous vehicles` |
+| **Vehicle tracking & path estimation** | Tracks vehicles through a scene and estimates where they are heading. | `Computer vision` `State estimation` |
 
 Getting pushed as I dig them out.
 
@@ -96,6 +110,7 @@ Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught 
 **Building** — Python · TypeScript · Next.js · FastAPI · Postgres · Prisma
 **Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
 **Cybersecurity** — attack surface management · threat intelligence · adversarial ML (FGSM · PGD · WGAN-GP) · agent authorization · policy engines
+**Crypto & networks** — applied cryptography · identity and key management · signed logs · network measurement
 **Vision** — YOLO · FaceNet · LiDAR point clouds · RANSAC · real-time inference
 **Roots** — MATLAB · SEM characterisation · embedded systems · FPGA · signal processing
 
