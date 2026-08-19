@@ -76,14 +76,18 @@ No badge wall. If it's on this list I've shipped something with it.
 
 ---
 
-### Currently
+### What's next
 
-- Finishing an **MEng in Electrical & Computer Engineering, Applied AI** at the University of Ottawa (Aug 2026)
-- Building **AgentGate** — and looking for the first people brave enough to put it in front of a real agent
-- Open to conversations about agent security, AI infrastructure, or anything nobody has figured out yet
+Just finished an **MEng in Electrical & Computer Engineering, Applied AI** at the University of Ottawa.
+
+> Building things. Learning. Growing. Figuring out what's next.
+
+That last part isn't filler. I've spent a few years shipping other people's ideas and a handful of my own. Right now I'm working out what deserves the next several years — which problem, which idea, which company.
+
+Taking my time with that one. Open to being convinced.
 
 **Reach me:** [portfolio](https://elamolamemugabo.com/) · [LinkedIn](https://www.linkedin.com/in/elam-olame-mugabo/)
 
 ---
 
-<sub>A nerd who likes building things in his free (full) time. Still building, still learning, still figuring out what's next :)</sub>
+<sub>A nerd who likes building things in his free (full) time :)</sub>
