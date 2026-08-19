@@ -38,6 +38,7 @@ So: what's here is a fraction. What's below is the honest map.
 |---|---|---|
 | **Myles** — *started life as Ghost* | The circuit breaker for AI agents. A zero-config local proxy that sits between your tooling and whichever provider you use, and keeps the bill honest two ways: it routes mechanical work to a cheap model and real intent to the strong one — then checks the cheap answer actually held up before taking credit for the savings — and it cuts the loop when an agent starts burning money going in circles. Any agent, any provider, no code changes. | `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
+| **[anyone.today](https://anyone.today/)** | *"When you can't talk to anyone, talk to anyone.today."* Anonymous one-to-one chat on a three-minute timer. Whoever is online gets paired at random, both sides get a throwaway handle that changes every single conversation, and the thread is destroyed when the timer runs out. Nothing is retained unless someone files a report — that is the only path to a human reviewer. Or you skip the stranger and talk to Echo, the AI, instead. Of the first 179 conversations, 131 were with a stranger and 48 with Echo. | Live |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
 
 Mid-session:
@@ -50,7 +51,7 @@ VERIFY  equivalent   sim=0.93   both answers correct
 
 That third line is the whole point. Routing to a cheap model is easy; knowing you got away with it is the hard part.
 
-> The theme, if you want one: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
+> The theme running through most of it: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
 
 ---
 
