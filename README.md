@@ -36,7 +36,7 @@ So: what's here is a fraction. What's below is the honest map.
 |---|---|---|
 | **[Myles](https://github.com/ElamOlame31/Myles)** | The circuit breaker for AI agents. A zero-config local proxy that stops runaway loops and budget blowouts before they burn your API bill — any agent, any provider, no code changes. | Public · `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
-| **Poisoning defence for hierarchical FL over NTN** | Master's research: making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. | Thesis, 2026 |
+| **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
 
 > The theme, if you want one: **agents are getting real authority, and almost nothing sits between them and your infrastructure.** I'd like to change that.
 
@@ -73,7 +73,7 @@ graph LR
     style D fill:#1e293b,stroke:#f472b6,color:#e2e8f0
 ```
 
-Three years at [SUNLAB](https://www.sunlab.ca/) under Dr. Karin Hinzer taught me the thing that transfers everywhere: **if you can't measure it, you don't understand it yet.** Turns out that applies to AI agents about as well as it applies to solar cells.
+Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught me the thing that transfers everywhere: **if you can't measure it, you don't understand it yet.** Turns out that applies to AI agents about as well as it applies to solar cells.
 
 ---
 
