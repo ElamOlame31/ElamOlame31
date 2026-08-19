@@ -37,8 +37,9 @@ So: what's here is a fraction. What's below is the honest map.
 | **[Myles](https://github.com/ElamOlame31/Myles)** | The circuit breaker for AI agents. A zero-config local proxy that stops runaway loops and budget blowouts before they burn your API bill — any agent, any provider, no code changes. | Public · `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
+| **Adaptive adversarial defence for ML-based IDS** | Intrusion detection models look excellent on clean traffic and collapse under adversarial input. Built a two-tier defence that watches its own confidence and stability, then escalates from lightweight adversarial retraining to GAN-assisted reinforcement as the threat worsens — generating synthetic samples aimed at the fragile regions of the decision boundary rather than augmenting blindly. On CIC-IDS2017 (2.8M flows, FGSM / PGD / GAN attacks): **attack success rate down 60%**, false positives under attack **35.2% → 11.3%**. | Team research · `XGBoost` `WGAN-GP` |
 
-> The theme, if you want one: **agents are getting real authority, and almost nothing sits between them and your infrastructure.** I'd like to change that.
+> The theme, if you want one: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
 
 ---
 
@@ -94,7 +95,7 @@ Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught 
 
 **Building** — Python · TypeScript · Next.js · FastAPI · Postgres · Prisma
 **Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
-**Cybersecurity** — attack surface management · threat intelligence · agent authorization · policy engines
+**Cybersecurity** — attack surface management · threat intelligence · adversarial ML (FGSM · PGD · WGAN-GP) · agent authorization · policy engines
 **Vision** — YOLO · FaceNet · LiDAR point clouds · RANSAC · real-time inference
 **Roots** — MATLAB · SEM characterisation · embedded systems · FPGA · signal processing
 
