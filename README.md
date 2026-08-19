@@ -82,7 +82,9 @@ Things that exist, work, and are still sitting on a drive somewhere. Category tw
 | **Vehicle tracking & path estimation** | Tracks vehicles through a scene and estimates where they are heading. | `Computer vision` `State estimation` |
 | **Adaptive adversarial defence for ML-based IDS** | Intrusion detection models look excellent on clean traffic and collapse under adversarial input. A two-tier defence that watches its own confidence and stability, then escalates from lightweight adversarial retraining to GAN-assisted reinforcement as the threat worsens — generating synthetic samples aimed at the fragile regions of the decision boundary rather than augmenting blindly. On CIC-IDS2017 (2.8M flows): **attack success rate down 60%**, false positives under attack **35.2% → 11.3%**. Team research. | `XGBoost` `WGAN-GP` `FGSM / PGD` |
 
-Getting pushed as I dig them out.
+Somewhere across all of this I've shipped something into space exploration, mining, cybersecurity, tourism, transportation, energy, urban development, finance, infrastructure, and airport technology. Written out like that, it reads less like a career and more like a dare.
+
+And it still isn't the full list. Every few weeks I remember another one and quietly add it here — which makes this page less a portfolio than an ongoing archaeological dig through my own hard drive. Things get pushed as I unearth them.
 
 ---
 
