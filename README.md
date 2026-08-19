@@ -57,6 +57,19 @@ Happy to talk through any of it in a conversation. Just can't put it in a repo.
 
 ---
 
+### The back catalogue
+
+Things that exist, work, and are still sitting on a drive somewhere. Category two from above.
+
+| Project | What it does | Stack |
+|---|---|---|
+| **InOutVision** | Real-time intrusion and attendance detection. Recognises employees on camera, logs attendance automatically, and flags anyone who doesn't belong. | `YOLOv11` `FaceNet` `Computer vision` |
+| **RANSAC plane detection** | Finds planar structures in 3D LiDAR point clouds so an autonomous vehicle can tell road from obstacle — built to improve navigation accuracy. | `LiDAR` `Point clouds` `Autonomous vehicles` |
+
+Getting pushed as I dig them out.
+
+---
+
 ### The range
 
 I did not arrive here from a bootcamp. I got here sideways, through a physics lab.
@@ -82,6 +95,7 @@ Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught 
 **Building** — Python · TypeScript · Next.js · FastAPI · Postgres · Prisma
 **Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
 **Cybersecurity** — attack surface management · threat intelligence · agent authorization · policy engines
+**Vision** — YOLO · FaceNet · LiDAR point clouds · RANSAC · real-time inference
 **Roots** — MATLAB · SEM characterisation · embedded systems · FPGA · signal processing
 
 No badge wall. If it's on this list I've shipped something with it.
