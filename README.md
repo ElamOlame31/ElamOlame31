@@ -130,11 +130,13 @@ On paper the list looks scattered. In practice it has been the same job every ti
 | **BSc, Computing Technology** | University of Ottawa · 2021–2025 |
 | **CESS, Mathematics & Sciences** | Lycée Prince de Liège, Kinshasa · 2018–2021 |
 
-Yes, two bachelors with the same end date. That combination is built to take five years. I did it in four and graduated **valedictorian** — which mostly meant writing a speech on top of everything else. A few scholarships came along the way, some for research, some for grades.
+Yes, two bachelors with the same end date. That combination is built to take five years. I did it in four and graduated **valedictorian** — which mostly meant writing a speech on top of everything else. A few scholarships came along the way, some for research, some for grades, and one that paid for the master's.
 
-In fairness, those four years weren't only coursework. They also held three years of semiconductor research at SUNLAB, a company I was running on the side, and clients who were entirely unmoved by the existence of my midterms.
+In fairness, those four years weren't only coursework. They also held three years of semiconductor research at SUNLAB, a company I was quietly running on the side, and a rotation of clients who regarded my exam schedule as an interesting but non-binding suggestion. Sleep was in there somewhere too, allegedly.
 
-Do not recommend. Would do again.
+For the sake of your mental health, I would not recommend this. To anyone. Ever.
+
+That said — if I had to run it back, I'd probably try for three.
 
 That last one is a Belgian curriculum, taught in Kinshasa (DR Congo) — which makes "where did you go to school" a longer answer than most people are expecting. I'm fluent in French, English and Lingala, and still fighting to hold on to Swahili and Dutch, both of which are quietly packing their bags.
 
