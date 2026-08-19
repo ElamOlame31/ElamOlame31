@@ -112,7 +112,7 @@ Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught 
 | **MEng, Electrical & Computer Engineering** — concentration in Applied AI | University of Ottawa · 2025–2026 |
 | **BASc, Electrical Engineering** — Systems Engineering specialisation | University of Ottawa · 2021–2025 |
 | **BSc, Computing Technology** | University of Ottawa · 2021–2025 |
-| **CESS, Mathematics & Sciences** | Lycée Prince de Liège, Belgium · 2018–2021 |
+| **CESS, Mathematics & Sciences** | Lycée Prince de Liège, Kinshasa · 2018–2021 |
 
 Yes, two bachelors with the same end date. That combination is built to take five years. I did it in four and graduated **valedictorian** — which mostly meant writing a speech on top of everything else. A few scholarships came along the way, some for research, some for grades.
 
@@ -120,7 +120,7 @@ In fairness, those four years weren't only coursework. They also held three year
 
 Do not recommend. Would do again.
 
-The Belgian one ran in French with English and Dutch on the side, so I now get to be confused in three languages.
+That last one is a Belgian curriculum, taught in Kinshasa — which makes "where did you go to school" a longer answer than most people are expecting. I'm fluent in French, English and Lingala, and still fighting to hold on to Swahili and Dutch, both of which are quietly packing their bags.
 
 ---
 
