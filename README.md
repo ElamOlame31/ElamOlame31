@@ -37,8 +37,19 @@ So: what's here is a fraction. What's below is the honest map.
 | Project | What it is | Status |
 |---|---|---|
 | **Myles** | The circuit breaker for AI agents. A zero-config local proxy that stops runaway loops and budget blowouts before they burn your API bill — any agent, any provider, no code changes. | `Python` |
+| **Ghost** | The money-saving router for AI coding. Sits between your tool — Aider, Cline, anything OpenAI-compatible — and OpenRouter, then sends mechanical work to a cheap model and real intent to the strong one. The part I care about: it checks the cheap answer actually held up before it takes credit for the savings. | Early prototype · `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
+
+Ghost, mid-session:
+
+```text
+CHEAP   claude-haiku-4.5     mechanical task (rename)    saved $0.0044
+STRONG  claude-sonnet-4.5    hard intent (refactor)      saved $0.0000
+VERIFY  equivalent   sim=0.93   both answers correct
+```
+
+That third line is the whole point. Routing to a cheap model is easy; knowing you got away with it is the hard part.
 
 > The theme, if you want one: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
 
@@ -130,7 +141,7 @@ That last one is a Belgian curriculum, taught in Kinshasa — which makes "where
 ### Toolbox
 
 **Building** — Python · TypeScript · React / Next.js · FastAPI · Postgres · Prisma
-**Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals
+**Agents & AI** — LangChain / LangGraph · MCP · multi-agent systems · RAG · evals · model routing
 **Cybersecurity** — attack surface management · threat intelligence · adversarial ML (FGSM · PGD · WGAN-GP) · agent authorization · policy engines
 **Crypto & networks** — applied cryptography · identity and key management · signed logs · network measurement
 **Vision** — YOLO · FaceNet · LiDAR point clouds · RANSAC · real-time inference
