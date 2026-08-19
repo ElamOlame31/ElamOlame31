@@ -18,7 +18,7 @@ That last part isn't filler. I've spent a few years shipping other people's idea
 
 Taking my time with that one. Open to being convinced.
 
-Meanwhile I'm **CTO at NOA** — the all-in-one money app for the globally connected, sitting across fintech and education. *Beyond borders, beyond limits.* I own technical strategy and execution there: architecture decisions, platform development, cross-functional delivery.
+Meanwhile I'm **CTO at NOA** — the all-in-one money app for the globally connected, sitting across fintech and education. *Beyond borders, beyond limits.* Not a full-time seat: I hold the technical direction — architecture decisions, platform development, cross-functional delivery — and step in when the team needs me.
 
 ---
 
@@ -50,8 +50,8 @@ Two halves of the same problem: making secure communication tools work in enviro
 
 | Project | What it is | Status |
 |---|---|---|
-| **Phoenix Key** | Portable, revocable identity for self-hosted communication tools. Lose your device to a seizure and today your identity — and your entire trusted network — goes with it. Phoenix Key lets you say *"this is my new key now"* and bring all of it back. Established cryptography, a signed log, no blockchain. | In progress |
-| **NetScope** | Field measurement for restricted network environments. Teams deploying communication tools into allow-list intranets are guessing what the network actually lets through. NetScope replaces that guess with evidence — gathered safely, from inside the network itself. | In progress |
+| **Phoenix Key** | Portable, revocable identity for self-hosted communication tools. Lose your device to a seizure and today your identity — and your entire trusted network — goes with it. Phoenix Key lets you say *"this is my new key now"* and bring all of it back. Established cryptography, a signed log, no blockchain. | Built |
+| **NetScope** | Field measurement for restricted network environments. Teams deploying communication tools into allow-list intranets are guessing what the network actually lets through. NetScope replaces that guess with evidence — gathered safely, from inside the network itself. | Built |
 
 ---
 
@@ -134,6 +134,53 @@ The Belgian one ran in French with English and Dutch on the side, so I now get t
 **Roots** — MATLAB · SEM characterisation · embedded systems · FPGA · signal processing
 
 No badge wall. If it's on this list I've shipped something with it.
+
+---
+
+### Off the clock
+
+Two things, mostly.
+
+The first is that I genuinely just like making things exist. An idea shows up, and I want to see it running. That's the whole hobby — everything else is implementation detail.
+
+The second is reading. A lot of reading.
+
+<details>
+<summary><b>📚 What's on the pile right now</b> — click to open</summary>
+
+<br>
+
+**Currently reading**
+
+- *Understanding Your Potential* — Myles Munroe
+
+**Finished in 2026**
+
+- *Wisdom Takes Work* — Ryan Holiday
+- *Sortir du Vide* — Dr Mireille Basirwa
+- *The Business of Philanthropy* — Badr Jafar
+- *Machiavélisme financier* — West Ornan Monga
+- *Les mystères de l'éloquence* — Grégory Levy & Gilles-Jean Portejoie
+- *Discipline Is Destiny* — Ryan Holiday
+- *Unleash Your Purpose* — Myles Munroe
+- *The Delulu We Live In* — Israel Goytom
+
+**Bought, queued, or being hunted down**
+
+- *The Joseph-Daniel Calling* — Morris E. Ruddick
+- *Emotional Intelligence: Why It Can Matter More Than IQ* — Daniel Goleman
+- *Manifesto for a Moral Revolution* — Jacqueline Novogratz
+- *The Wealth of Nations* — Adam Smith
+- *The Psychology of Money* — Morgan Housel
+- *Releasing Your Potential* — Myles Munroe
+- *Maximizing Your Potential* — Myles Munroe
+- *How to Win Friends and Influence People* — Dale Carnegie
+
+<br>
+
+Recommendations welcome. My backlog is already unreasonable, so one more won't hurt.
+
+</details>
 
 ---
 
