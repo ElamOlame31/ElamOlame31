@@ -36,12 +36,11 @@ So: what's here is a fraction. What's below is the honest map.
 
 | Project | What it is | Status |
 |---|---|---|
-| **Myles** | The circuit breaker for AI agents. A zero-config local proxy that stops runaway loops and budget blowouts before they burn your API bill — any agent, any provider, no code changes. | `Python` |
-| **Ghost** | The money-saving router for AI coding. Sits between your tool — Aider, Cline, anything OpenAI-compatible — and OpenRouter, then sends mechanical work to a cheap model and real intent to the strong one. The part I care about: it checks the cheap answer actually held up before it takes credit for the savings. | Early prototype · `Python` |
+| **Myles** — *started life as Ghost* | The circuit breaker for AI agents. A zero-config local proxy that sits between your tooling and whichever provider you use, and keeps the bill honest two ways: it routes mechanical work to a cheap model and real intent to the strong one — then checks the cheap answer actually held up before taking credit for the savings — and it cuts the loop when an agent starts burning money going in circles. Any agent, any provider, no code changes. | `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
 
-Ghost, mid-session:
+Mid-session:
 
 ```text
 CHEAP   claude-haiku-4.5     mechanical task (rename)    saved $0.0044
