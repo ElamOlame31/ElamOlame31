@@ -90,21 +90,34 @@ And it still isn't the full list. Every few weeks I remember another one and qui
 
 ### The range
 
-I did not arrive here from a bootcamp. I got here sideways, through a physics lab.
+I did not arrive here from a bootcamp. I got here sideways, through a physics lab — and then kept going sideways.
 
 ```mermaid
 graph LR
-    A["Betavoltaic cells<br/>semiconductor microfab<br/>SEM · ohmic contacts"] --> B["Laser tracking system<br/>for photonic power converters<br/>targeting lunar receivers"]
-    B --> C["AI systems in production<br/>across 8 industries<br/>3 continents"]
-    C --> D["Security infrastructure<br/>for autonomous agents"]
+    A["Semiconductor physics<br/>betavoltaic cells · SEM<br/>ohmic contacts"] --> B["Laser tracking<br/>for photonic power<br/>converters in space"]
+    B --> C{{"then it fanned out"}}
+    C --> D["Security infrastructure<br/>agents · policy engines<br/>adversarial ML"]
+    C --> E["Comms under pressure<br/>portable identity<br/>network measurement"]
+    C --> F["Consumer products<br/>anonymous chat<br/>local discovery"]
+    C --> G["Applied AI delivery<br/>10 industries<br/>3 continents"]
+    D --> H(["what deserves the<br/>next several years?"])
+    E --> H
+    F --> H
+    G --> H
 
     style A fill:#1e293b,stroke:#38bdf8,color:#e2e8f0
-    style B fill:#1e293b,stroke:#818cf8,color:#e2e8f0
-    style C fill:#1e293b,stroke:#a78bfa,color:#e2e8f0
-    style D fill:#1e293b,stroke:#f472b6,color:#e2e8f0
+    style B fill:#1e293b,stroke:#60a5fa,color:#e2e8f0
+    style C fill:#0f172a,stroke:#818cf8,color:#94a3b8
+    style D fill:#1e293b,stroke:#a78bfa,color:#e2e8f0
+    style E fill:#1e293b,stroke:#c084fc,color:#e2e8f0
+    style F fill:#1e293b,stroke:#e879f9,color:#e2e8f0
+    style G fill:#1e293b,stroke:#f472b6,color:#e2e8f0
+    style H fill:#0f172a,stroke:#fbbf24,color:#fbbf24
 ```
 
 Three years at [SUNLAB](https://www.sunlab.ca/) under Prof. Karin Hinzer taught me the thing that transfers everywhere: **if you can't measure it, you don't understand it yet.** Turns out that applies to AI agents about as well as it applies to solar cells.
+
+On paper the list looks scattered. In practice it has been the same job every time: walk into a domain I don't know yet, work out what actually matters in it, and build the thing that was missing.
 
 ---
 
