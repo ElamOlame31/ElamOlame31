@@ -18,8 +18,6 @@ That last part isn't filler. I've spent a few years shipping other people's idea
 
 Taking my time with that one. Open to being convinced.
 
-Meanwhile I'm **CTO at NOA** — the all-in-one money app for the globally connected, sitting across fintech and education. *Beyond borders, beyond limits.* Not a full-time seat: I hold the technical direction — architecture decisions, platform development, cross-functional delivery — and step in when the team needs me.
-
 ---
 
 ### Why this profile looks emptier than my hard drive
@@ -39,6 +37,7 @@ So: what's here is a fraction. What's below is the honest map.
 | **Myles** — *started life as Ghost* | The circuit breaker for AI agents. A zero-config local proxy that sits between your tooling and whichever provider you use, and keeps the bill honest two ways: it routes mechanical work to a cheap model and real intent to the strong one — then checks the cheap answer actually held up before taking credit for the savings — and it cuts the loop when an agent starts burning money going in circles. Any agent, any provider, no code changes. | `Python` |
 | **AgentGate** | Policy decision point for agentic AI. The layer that decides what an autonomous agent is actually allowed to do, before it does it. | Private beta |
 | **Poisoning defence for hierarchical FL over NTN** | Making federated learning survive malicious clients across a BS → UAV → HAPS satellite topology. Master's research under Prof. Burak Kantarci at [NEXTCON Lab](https://nextconlab.ca/). | Thesis, 2026 |
+| **NOA** — *CTO* | The all-in-one money app for the globally connected, sitting across fintech and education. *Beyond borders, beyond limits.* I hold the technical direction — architecture decisions, platform development, cross-functional delivery — and step in when the team needs me. | Ongoing, part-time |
 
 > The theme running through most of it: **AI systems are being handed real authority, and almost nothing sits between them and the damage they can do.** A runaway agent, a poisoned model, an adversarial input — same gap, different door. I'd like to close a few of them.
 
