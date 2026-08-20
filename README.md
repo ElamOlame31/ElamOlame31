@@ -10,6 +10,8 @@
 
 ### What's next
 
+<img src="./assets/scan.svg" alt="Scanning candidate directions" width="100%">
+
 Just finished an **MEng in Electrical & Computer Engineering, Applied AI** at the University of Ottawa.
 
 > Building things. Learning. Growing. Figuring out what's next.
@@ -44,6 +46,8 @@ So: what's here is a fraction. What's below is the honest map.
 ---
 
 ### When the network is the adversary
+
+<img src="./assets/firewall.svg" alt="Packets meeting an allow-list barrier" width="100%">
 
 Two halves of the same problem: making secure communication tools work in environments built to stop them.
 

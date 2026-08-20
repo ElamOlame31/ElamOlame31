@@ -1,115 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="A bookshelf, one book pulled out and glowing">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="A shelf of books, one pulled out and lit">
   <title>Off the clock</title>
   <defs>
-    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#241a12"/>
-      <stop offset="100%" stop-color="#150f0a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/><stop offset="45%" stop-color="#0b1226"/><stop offset="100%" stop-color="#1a0b2e"/>
     </linearGradient>
-    <radialGradient id="lamp" cx="0.5" cy="0.15" r="0.75">
-      <stop offset="0%"   stop-color="#ffd9a0" stop-opacity=".40"/>
-      <stop offset="100%" stop-color="#ffd9a0" stop-opacity="0"/>
+    <radialGradient id="lamp" cx="0.19" cy="0.4" r="0.62">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#6b4a2c"/>
-      <stop offset="100%" stop-color="#4a3220"/>
+    <linearGradient id="plank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155"/><stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
-    <filter id="warm" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="g"/>
+    <filter id="gl" x="-90%" y="-90%" width="280%" height="280%">
+      <feGaussianBlur stdDeviation="5" result="g"/>
       <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="roomClip"><rect width="1200" height="150" rx="6"/></clipPath>
+    <clipPath id="c"><rect width="1200" height="150" rx="6"/></clipPath>
   </defs>
 
   <style>
-    .pull  { animation:pull 8s ease-in-out infinite; }
-    @keyframes pull {
-      0%,12%   { transform:translateY(0); }
-      30%,70%  { transform:translateY(-13px); }
-      88%,100% { transform:translateY(0); }
-    }
-    .halo  { animation:halo 8s ease-in-out infinite; }
-    @keyframes halo { 0%,12%,88%,100% { opacity:0; } 34%,66% { opacity:.85; } }
-
+    .pull { animation:pull 8s ease-in-out infinite; }
+    @keyframes pull { 0%,12% { transform:translateY(0);} 30%,70% { transform:translateY(-13px);} 88%,100% { transform:translateY(0);} }
+    .halo { animation:halo 8s ease-in-out infinite; }
+    @keyframes halo { 0%,12%,88%,100% { opacity:0; } 34%,66% { opacity:.8; } }
     .flick { animation:flick 5.5s ease-in-out infinite; }
-    @keyframes flick { 0%,100% { opacity:.75; } 42% { opacity:1; } 64% { opacity:.82; } }
-
-    .mote  { animation:float 9s ease-in-out infinite; }
-    .m2 { animation-delay:2.2s } .m3 { animation-delay:4.4s } .m4 { animation-delay:6.6s }
-    @keyframes float {
-      0%   { transform:translate(0,0);     opacity:0; }
-      30%  { opacity:.6; }
-      100% { transform:translate(-16px,-26px); opacity:0; }
-    }
+    @keyframes flick { 0%,100% { opacity:.7; } 42% { opacity:1; } 64% { opacity:.8; } }
+    .mote { animation:float 9s ease-in-out infinite; }
+    @keyframes float { 0% { transform:translate(0,0); opacity:0; } 30% { opacity:.6; } 100% { transform:translate(-16px,-26px); opacity:0; } }
+    .mono { font-family:"Cascadia Mono",Consolas,"DejaVu Sans Mono",monospace; }
   </style>
 
-  <g clip-path="url(#roomClip)">
-    <rect width="1200" height="150" fill="url(#room)"/>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="150" fill="url(#bg)"/>
     <rect class="flick" width="1200" height="150" fill="url(#lamp)"/>
 
-    <!-- shelf plank -->
-    <rect x="0" y="126" width="1200" height="14" fill="url(#wood)"/>
-    <rect x="0" y="126" width="1200" height="2.5" fill="#8a6039" opacity=".7"/>
+    <rect x="0" y="126" width="1200" height="13" fill="url(#plank)"/>
+    <rect x="0" y="126" width="1200" height="2" fill="#22d3ee" opacity=".28"/>
 
-    <!-- spines -->
-    <g>
-      <rect x="40"  y="52" width="22" height="74" rx="2" fill="#7f2f3c"/>
-      <rect x="66"  y="44" width="17" height="82" rx="2" fill="#2f5d50"/>
-      <rect x="87"  y="60" width="26" height="66" rx="2" fill="#3b4a7a"/>
-      <rect x="117" y="48" width="19" height="78" rx="2" fill="#8a5a25"/>
-      <rect x="140" y="56" width="24" height="70" rx="2" fill="#5c3a63"/>
+    <!-- spines, drawn from the accent ramp -->
+    <g opacity=".82">
+      <rect x="40"  y="52" width="22" height="74" rx="2" fill="#22d3ee"/>
+      <rect x="66"  y="44" width="17" height="82" rx="2" fill="#3b4a7a"/>
+      <rect x="87"  y="60" width="26" height="66" rx="2" fill="#818cf8"/>
+      <rect x="117" y="48" width="19" height="78" rx="2" fill="#5c3a83"/>
+      <rect x="140" y="56" width="24" height="70" rx="2" fill="#c084fc"/>
       <rect x="168" y="42" width="16" height="84" rx="2" fill="#2c4f6b"/>
-      <rect x="188" y="58" width="21" height="68" rx="2" fill="#7a4230"/>
+      <rect x="188" y="58" width="21" height="68" rx="2" fill="#f472b6"/>
 
-      <!-- the one currently being read -->
       <g class="pull">
-        <rect x="213" y="38" width="27" height="88" rx="2.5" fill="#c9a227"/>
-        <rect x="217" y="46" width="19" height="3" rx="1.5" fill="#3a2c08" opacity=".65"/>
-        <rect x="217" y="112" width="19" height="3" rx="1.5" fill="#3a2c08" opacity=".65"/>
+        <rect x="213" y="38" width="27" height="88" rx="2.5" fill="#e2e8f0"/>
+        <rect x="217" y="46" width="19" height="3" rx="1.5" fill="#0b1226" opacity=".7"/>
+        <rect x="217" y="112" width="19" height="3" rx="1.5" fill="#0b1226" opacity=".7"/>
       </g>
-      <ellipse class="halo" cx="226" cy="80" rx="34" ry="56" fill="#ffcf6b" opacity="0" filter="url(#warm)"/>
+      <ellipse class="halo" cx="226" cy="80" rx="34" ry="56" fill="#22d3ee" opacity="0" filter="url(#gl)"/>
 
-      <rect x="246" y="50" width="20" height="76" rx="2" fill="#33604f"/>
-      <rect x="270" y="60" width="25" height="66" rx="2" fill="#6b2f52"/>
+      <rect x="246" y="50" width="20" height="76" rx="2" fill="#38bdf8"/>
+      <rect x="270" y="60" width="25" height="66" rx="2" fill="#6b2f72"/>
       <rect x="299" y="46" width="18" height="80" rx="2" fill="#40507f"/>
-      <rect x="321" y="54" width="22" height="72" rx="2" fill="#8a5a25"/>
-      <rect x="347" y="40" width="16" height="86" rx="2" fill="#7f2f3c"/>
-      <rect x="367" y="58" width="24" height="68" rx="2" fill="#2f5d50"/>
-      <rect x="395" y="50" width="19" height="76" rx="2" fill="#5c3a63"/>
+      <rect x="321" y="54" width="22" height="72" rx="2" fill="#a78bfa"/>
+      <rect x="347" y="40" width="16" height="86" rx="2" fill="#22d3ee"/>
+      <rect x="367" y="58" width="24" height="68" rx="2" fill="#3b4a7a"/>
+      <rect x="395" y="50" width="19" height="76" rx="2" fill="#c084fc"/>
       <rect x="418" y="62" width="27" height="64" rx="2" fill="#2c4f6b"/>
-      <rect x="449" y="44" width="17" height="82" rx="2" fill="#7a4230"/>
-      <rect x="470" y="56" width="23" height="70" rx="2" fill="#3b4a7a"/>
-      <rect x="497" y="48" width="20" height="78" rx="2" fill="#8a5a25"/>
-      <rect x="521" y="60" width="18" height="66" rx="2" fill="#33604f"/>
-      <rect x="543" y="42" width="26" height="84" rx="2" fill="#6b2f52"/>
-      <rect x="573" y="54" width="19" height="72" rx="2" fill="#7f2f3c"/>
+      <rect x="449" y="44" width="17" height="82" rx="2" fill="#f472b6"/>
+      <rect x="470" y="56" width="23" height="70" rx="2" fill="#818cf8"/>
+      <rect x="497" y="48" width="20" height="78" rx="2" fill="#5c3a83"/>
+      <rect x="521" y="60" width="18" height="66" rx="2" fill="#38bdf8"/>
+      <rect x="543" y="42" width="26" height="84" rx="2" fill="#6b2f72"/>
+      <rect x="573" y="54" width="19" height="72" rx="2" fill="#22d3ee"/>
       <rect x="596" y="50" width="22" height="76" rx="2" fill="#40507f"/>
-      <rect x="622" y="64" width="17" height="62" rx="2" fill="#2f5d50"/>
-      <rect x="643" y="46" width="24" height="80" rx="2" fill="#5c3a63"/>
-      <rect x="671" y="58" width="20" height="68" rx="2" fill="#8a5a25"/>
-      <rect x="695" y="52" width="18" height="74" rx="2" fill="#2c4f6b"/>
-      <rect x="717" y="44" width="25" height="82" rx="2" fill="#7a4230"/>
-      <rect x="746" y="60" width="21" height="66" rx="2" fill="#33604f"/>
-      <rect x="771" y="48" width="16" height="78" rx="2" fill="#3b4a7a"/>
-      <rect x="791" y="56" width="23" height="70" rx="2" fill="#6b2f52"/>
+      <rect x="622" y="64" width="17" height="62" rx="2" fill="#a78bfa"/>
+      <rect x="643" y="46" width="24" height="80" rx="2" fill="#c084fc"/>
+      <rect x="671" y="58" width="20" height="68" rx="2" fill="#3b4a7a"/>
+      <rect x="695" y="52" width="18" height="74" rx="2" fill="#f472b6"/>
+      <rect x="717" y="44" width="25" height="82" rx="2" fill="#2c4f6b"/>
+      <rect x="746" y="60" width="21" height="66" rx="2" fill="#818cf8"/>
+      <rect x="771" y="48" width="16" height="78" rx="2" fill="#22d3ee"/>
+      <rect x="791" y="56" width="23" height="70" rx="2" fill="#5c3a83"/>
     </g>
 
-    <!-- a couple lying flat, because the shelf is full -->
-    <g>
-      <rect x="836" y="112" width="120" height="9" rx="2" fill="#5c3a63"/>
-      <rect x="842" y="103" width="108" height="9" rx="2" fill="#7f2f3c"/>
-      <rect x="848" y="94"  width="96"  height="9" rx="2" fill="#2f5d50"/>
-      <rect x="854" y="85"  width="84"  height="9" rx="2" fill="#8a5a25"/>
+    <!-- stacked flat, because the shelf is full -->
+    <g opacity=".78">
+      <rect x="836" y="112" width="120" height="9" rx="2" fill="#c084fc"/>
+      <rect x="842" y="103" width="108" height="9" rx="2" fill="#f472b6"/>
+      <rect x="848" y="94"  width="96"  height="9" rx="2" fill="#818cf8"/>
+      <rect x="854" y="85"  width="84"  height="9" rx="2" fill="#22d3ee"/>
     </g>
 
-    <!-- dust in the lamplight -->
-    <g fill="#ffe0ab">
-      <circle class="mote"    cx="990"  cy="100" r="1.8"/>
-      <circle class="mote m2" cx="1060" cy="80"  r="1.4"/>
-      <circle class="mote m3" cx="1120" cy="110" r="2"/>
-      <circle class="mote m4" cx="1040" cy="126" r="1.6"/>
+    <g fill="#a5b4fc">
+      <circle class="mote" cx="990"  cy="100" r="1.8" style="animation-delay:0s"/>
+      <circle class="mote" cx="1060" cy="80"  r="1.4" style="animation-delay:2.2s"/>
+      <circle class="mote" cx="1120" cy="110" r="2"   style="animation-delay:4.4s"/>
+      <circle class="mote" cx="1040" cy="126" r="1.6" style="animation-delay:6.6s"/>
     </g>
 
-    <text x="1176" y="30" text-anchor="end" font-family="Verdana,DejaVu Sans,sans-serif"
-          font-size="12" fill="#a57f4f" letter-spacing="3">CURRENTLY READING</text>
+    <text class="mono" x="1176" y="26" text-anchor="end" font-size="11" fill="#475569" letter-spacing="3">CURRENTLY READING</text>
+    <rect width="1200" height="150" rx="6" fill="none" stroke="#334155" stroke-opacity=".55"/>
   </g>
 </svg>

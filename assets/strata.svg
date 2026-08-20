@@ -1,82 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Archaeological strata — older work being dug back up">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Buried work being dug back up">
   <title>The back catalogue</title>
   <defs>
-    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f4ead8"/>
-      <stop offset="100%" stop-color="#e8d9bd"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/><stop offset="45%" stop-color="#0b1226"/><stop offset="100%" stop-color="#1a0b2e"/>
     </linearGradient>
-    <filter id="find" x="-120%" y="-120%" width="340%" height="340%">
-      <feGaussianBlur stdDeviation="5" result="g"/>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gl" x="-140%" y="-140%" width="380%" height="380%">
+      <feGaussianBlur stdDeviation="4.5" result="g"/>
       <feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#fff7e0" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#fff7e0" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#fff7e0" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="digClip"><rect width="1200" height="150" rx="6"/></clipPath>
+    <clipPath id="c"><rect width="1200" height="150" rx="6"/></clipPath>
   </defs>
 
   <style>
-    .relic  { animation:unearth 10s ease-in-out infinite; transform-origin:center; }
-    .d1 { animation-delay:0s }   .d2 { animation-delay:1.6s } .d3 { animation-delay:3.2s }
-    .d4 { animation-delay:4.8s } .d5 { animation-delay:6.4s } .d6 { animation-delay:8s }
-    @keyframes unearth {
-      0%,100% { opacity:.18; }
-      12%     { opacity:1; }
-      26%     { opacity:.18; }
-    }
-    .sweep { animation:sweepX 10s linear infinite; }
-    @keyframes sweepX { 0% { transform:translateX(-320px); } 100% { transform:translateX(1260px); } }
-
-    .dust  { animation:up 7s ease-in-out infinite; }
-    .u2 { animation-delay:1.4s } .u3 { animation-delay:2.8s } .u4 { animation-delay:4.2s }
+    .relic { animation:unearth 10s ease-in-out infinite; transform-origin:center; }
+    @keyframes unearth { 0%,100% { opacity:.14; } 12% { opacity:1; } 26% { opacity:.14; } }
+    .sweep { animation:sw 10s linear infinite; }
+    @keyframes sw { 0% { transform:translateX(-300px); } 100% { transform:translateX(1240px); } }
+    .dust { animation:up 7s ease-in-out infinite; }
     @keyframes up {
-      0%   { transform:translate(0,0);      opacity:0; }
-      35%  { opacity:.7; }
+      0%   { transform:translate(0,0); opacity:0; }
+      35%  { opacity:.65; }
       100% { transform:translate(10px,-30px); opacity:0; }
     }
+    .mono { font-family:"Cascadia Mono",Consolas,"DejaVu Sans Mono",monospace; }
   </style>
 
-  <g clip-path="url(#digClip)">
-    <rect width="1200" height="150" fill="url(#sky2)"/>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="150" fill="url(#bg)"/>
 
-    <!-- sediment layers, youngest on top -->
-    <path d="M0 30 Q300 20 600 30 T1200 28 L1200 56 L0 58 Z"  fill="#d9b98a"/>
-    <path d="M0 58 Q300 50 600 58 T1200 56 L1200 86 L0 88 Z"  fill="#c19a68"/>
-    <path d="M0 88 Q300 80 600 88 T1200 86 L1200 116 L0 118 Z" fill="#a3794c"/>
-    <path d="M0 118 Q300 110 600 118 T1200 116 L1200 150 L0 150 Z" fill="#7d5836"/>
+    <!-- sediment: same navy family, each layer a shade deeper -->
+    <path d="M0 32 Q300 22 600 32 T1200 30 L1200 58 L0 60 Z"   fill="#0e1730" opacity=".9"/>
+    <path d="M0 60 Q300 52 600 60 T1200 58 L1200 88 L0 90 Z"   fill="#141d3d" opacity=".9"/>
+    <path d="M0 90 Q300 82 600 90 T1200 88 L1200 118 L0 120 Z" fill="#1a1743" opacity=".9"/>
+    <path d="M0 120 Q300 112 600 120 T1200 118 L1200 150 L0 150 Z" fill="#211048" opacity=".9"/>
 
-    <!-- grain -->
-    <g stroke="#8a6239" stroke-width="1" opacity=".22">
-      <path d="M40 44 h60 M180 46 h90 M420 42 h70 M700 45 h110 M960 43 h80"/>
-      <path d="M90 73 h120 M330 71 h60 M560 74 h140 M860 72 h90 M1080 73 h70"/>
-      <path d="M60 103 h100 M280 101 h130 M600 104 h80 M820 102 h60 M1020 103 h120"/>
-      <path d="M120 133 h90 M400 131 h110 M740 134 h70 M980 132 h130"/>
+    <!-- layer boundaries -->
+    <g fill="none" stroke="#22d3ee" stroke-width="1" opacity=".18">
+      <path d="M0 32 Q300 22 600 32 T1200 30"/>
+      <path d="M0 60 Q300 52 600 60 T1200 58"/>
+      <path d="M0 90 Q300 82 600 90 T1200 88"/>
+      <path d="M0 120 Q300 112 600 120 T1200 118"/>
     </g>
 
-    <!-- buried finds, each glowing in turn -->
-    <g filter="url(#find)">
-      <circle class="relic d1" cx="150"  cy="45"  r="6" fill="#0e9aa7"/>
-      <rect   class="relic d2" x="330"   y="68"  width="13" height="13" rx="2.5" fill="#0e9aa7" transform="rotate(18 336 74)"/>
-      <circle class="relic d3" cx="560"  cy="99"  r="6.5" fill="#12b3c2"/>
-      <rect   class="relic d4" x="760"   y="66"  width="12" height="12" rx="2.5" fill="#0e9aa7" transform="rotate(-12 766 72)"/>
-      <circle class="relic d5" cx="940"  cy="128" r="6" fill="#12b3c2"/>
-      <rect   class="relic d6" x="1080"  y="96"  width="13" height="13" rx="2.5" fill="#0e9aa7" transform="rotate(24 1086 102)"/>
+    <!-- grain -->
+    <g stroke="#818cf8" stroke-width="1" opacity=".13">
+      <path d="M40 46 h60 M180 48 h90 M420 44 h70 M700 47 h110 M960 45 h80"/>
+      <path d="M90 75 h120 M330 73 h60 M560 76 h140 M860 74 h90 M1080 75 h70"/>
+      <path d="M60 105 h100 M280 103 h130 M600 106 h80 M820 104 h60 M1020 105 h120"/>
+      <path d="M120 135 h90 M400 133 h110 M740 136 h70 M980 134 h130"/>
+    </g>
+
+    <!-- finds, lighting up one after another along the accent ramp -->
+    <g filter="url(#gl)">
+      <circle class="relic" cx="150"  cy="46"  r="5.5" fill="#22d3ee" style="animation-delay:0s"/>
+      <rect   class="relic" x="330"   y="69"  width="12" height="12" rx="2.5" fill="#38bdf8" transform="rotate(18 336 75)" style="animation-delay:1.6s"/>
+      <circle class="relic" cx="560"  cy="101" r="6"   fill="#818cf8" style="animation-delay:3.2s"/>
+      <rect   class="relic" x="760"   y="67"  width="11" height="11" rx="2.5" fill="#a78bfa" transform="rotate(-12 765 72)" style="animation-delay:4.8s"/>
+      <circle class="relic" cx="940"  cy="130" r="5.5" fill="#c084fc" style="animation-delay:6.4s"/>
+      <rect   class="relic" x="1080"  y="98"  width="12" height="12" rx="2.5" fill="#f472b6" transform="rotate(24 1086 104)" style="animation-delay:8s"/>
     </g>
 
     <!-- dust kicked up -->
-    <g fill="#f6ead2">
-      <circle class="dust"    cx="210" cy="120" r="2"/>
-      <circle class="dust u2" cx="520" cy="132" r="1.6"/>
-      <circle class="dust u3" cx="800" cy="126" r="2.2"/>
-      <circle class="dust u4" cx="1010" cy="134" r="1.8"/>
+    <g fill="#a5b4fc">
+      <circle class="dust" cx="210"  cy="122" r="1.9" style="animation-delay:0s"/>
+      <circle class="dust" cx="520"  cy="134" r="1.5" style="animation-delay:1.4s"/>
+      <circle class="dust" cx="800"  cy="128" r="2.1" style="animation-delay:2.8s"/>
+      <circle class="dust" cx="1010" cy="136" r="1.7" style="animation-delay:4.2s"/>
     </g>
 
-    <!-- excavation lamp passing over the trench -->
-    <rect class="sweep" x="0" y="0" width="260" height="150" fill="url(#beam)"/>
+    <rect class="sweep" x="0" y="0" width="240" height="150" fill="url(#beam)"/>
 
-    <text x="24" y="20" font-family="Verdana,DejaVu Sans,sans-serif" font-size="12"
-          fill="#8a6239" letter-spacing="3">STILL DIGGING</text>
+    <text class="mono" x="24" y="20" font-size="11" fill="#475569" letter-spacing="3">STILL DIGGING</text>
+    <rect width="1200" height="150" rx="6" fill="none" stroke="#334155" stroke-opacity=".55"/>
   </g>
 </svg>
