@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Elam Olame Mugabo — I build security infrastructure for AI agents" width="100%">
+<img src="./assets/hero.svg" alt="Elam Olame Mugabo — I build security infrastructure for AI agents" width="100%">
 
 <p align="center">
   <a href="https://elamolamemugabo.com/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-elamolamemugabo.com-0f172a?style=flat-square"></a>

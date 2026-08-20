@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Elam Olame Mugabo — I build security infrastructure for AI agents">
+  <title>Elam Olame Mugabo</title>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="45%" stop-color="#0b1226"/>
+      <stop offset="100%" stop-color="#1a0b2e"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="35%" stop-color="#818cf8"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="frame"><rect width="1200" height="340" rx="10"/></clipPath>
+    <clipPath id="barClip"><rect x="72" y="266" width="340" height="6" rx="3"/></clipPath>
+    <clipPath id="floorClip"><rect x="0" y="176" width="1200" height="164"/></clipPath>
+  </defs>
+
+  <style>
+    .grid      { stroke:#22d3ee; stroke-width:1; opacity:.20; }
+    .gridwarm  { stroke:#c084fc; stroke-width:1; opacity:.14; }
+    .flow      { fill:none; stroke-width:1.6; stroke-linecap:round;
+                 stroke-dasharray:14 26; animation:dash 2.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset:-160; } }
+
+    .rise      { animation:rise 4.4s linear infinite; }
+    @keyframes rise { from { transform:translateY(0); } to { transform:translateY(34px); } }
+
+    .node      { animation:beat 3s ease-in-out infinite; transform-origin:center; }
+    .node2     { animation:beat 3s ease-in-out .9s infinite; }
+    .node3     { animation:beat 3s ease-in-out 1.8s infinite; }
+    @keyframes beat { 0%,100% { opacity:.30; } 50% { opacity:1; } }
+
+    .scan      { animation:scan 7s cubic-bezier(.5,0,.5,1) infinite; }
+    @keyframes scan { 0% { transform:translateX(-360px); } 100% { transform:translateX(1300px); } }
+
+    .sheen     { animation:sheen 3.6s ease-in-out infinite; }
+    @keyframes sheen { 0% { transform:translateX(-140px); } 60%,100% { transform:translateX(360px); } }
+
+    .breathe   { animation:breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+
+    .drift     { animation:drift 9s ease-in-out infinite; }
+    .drift2    { animation:drift 11s ease-in-out 2s infinite; }
+    .drift3    { animation:drift 13s ease-in-out 4s infinite; }
+    @keyframes drift {
+      0%,100% { transform:translate(0,0); opacity:.25; }
+      50%     { transform:translate(14px,-18px); opacity:.85; }
+    }
+
+    .name  { font-family:"Segoe UI",Verdana,"DejaVu Sans",sans-serif; font-weight:700; }
+    .mono  { font-family:"Cascadia Mono",Consolas,"DejaVu Sans Mono",monospace; }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
+    <ellipse cx="290" cy="150" rx="420" ry="230" fill="url(#halo)" class="breathe"/>
+
+    <!-- receding floor: perspective rails + rising rungs -->
+    <g clip-path="url(#floorClip)">
+      <g class="grid">
+        <path d="M600 176 L-260 340"/><path d="M600 176 L60 340"/><path d="M600 176 L300 340"/>
+        <path d="M600 176 L470 340"/><path d="M600 176 L600 340"/><path d="M600 176 L730 340"/>
+        <path d="M600 176 L900 340"/><path d="M600 176 L1140 340"/><path d="M600 176 L1460 340"/>
+      </g>
+      <g class="grid rise">
+        <path d="M0 182 H1200"/><path d="M0 192 H1200"/><path d="M0 206 H1200"/>
+        <path d="M0 226 H1200"/><path d="M0 254 H1200"/><path d="M0 292 H1200"/>
+        <path d="M0 340 H1200"/><path d="M0 400 H1200"/>
+      </g>
+    </g>
+
+    <!-- upper lattice -->
+    <g class="gridwarm">
+      <path d="M0 46 H1200"/><path d="M0 92 H1200"/><path d="M0 138 H1200"/>
+      <path d="M150 0 V176"/><path d="M420 0 V176"/><path d="M780 0 V176"/><path d="M1050 0 V176"/>
+    </g>
+
+    <!-- data streams -->
+    <g filter="url(#softglow)">
+      <path class="flow" stroke="#22d3ee" d="M0 46 H1200"/>
+      <path class="flow" stroke="#c084fc" d="M0 92 H1200" style="animation-duration:3.4s"/>
+      <path class="flow" stroke="#f472b6" d="M0 138 H1200" style="animation-duration:4.2s"/>
+    </g>
+
+    <!-- pulsing nodes -->
+    <g fill="#22d3ee" filter="url(#softglow)">
+      <circle class="node"  cx="150"  cy="46"  r="3.5"/>
+      <circle class="node3" cx="780"  cy="46"  r="3.5"/>
+      <circle class="node2" cx="420"  cy="92"  r="3.5" fill="#c084fc"/>
+      <circle class="node"  cx="1050" cy="92"  r="3.5" fill="#c084fc"/>
+      <circle class="node3" cx="780"  cy="138" r="3.5" fill="#f472b6"/>
+      <circle class="node2" cx="150"  cy="138" r="3.5" fill="#f472b6"/>
+    </g>
+
+    <!-- floating motes -->
+    <g fill="#a5b4fc">
+      <circle class="drift"  cx="980" cy="210" r="2"/>
+      <circle class="drift2" cx="1090" cy="120" r="1.6"/>
+      <circle class="drift3" cx="900" cy="270" r="2.4"/>
+      <circle class="drift2" cx="1150" cy="240" r="1.8"/>
+      <circle class="drift"  cx="1020" cy="60"  r="1.5"/>
+    </g>
+
+    <!-- sweeping scan -->
+    <rect class="scan" x="0" y="0" width="220" height="340" fill="url(#scanGrad)"/>
+
+    <!-- type -->
+    <text class="name" x="72" y="132" font-size="56" fill="#f8fafc" filter="url(#glow)">Elam Olame Mugabo</text>
+    <text class="mono" x="74" y="176" font-size="19" fill="#7dd3fc" letter-spacing="0.5">I build security infrastructure for AI agents.</text>
+    <text class="mono" x="74" y="212" font-size="14.5" fill="#64748b" letter-spacing="0.4">semiconductors &#8594; lasers for space &#8594; agent infrastructure</text>
+
+    <!-- accent bar with travelling sheen -->
+    <rect x="72" y="266" width="340" height="6" rx="3" fill="url(#accent)"/>
+    <g clip-path="url(#barClip)">
+      <rect class="sheen" x="0" y="266" width="90" height="6" fill="url(#sheen)" opacity=".9"/>
+    </g>
+
+    <rect width="1200" height="340" rx="10" fill="none" stroke="#334155" stroke-opacity=".55"/>
+  </g>
+</svg>
