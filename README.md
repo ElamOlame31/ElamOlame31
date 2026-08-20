@@ -56,6 +56,8 @@ Two halves of the same problem: making secure communication tools work in enviro
 
 ### The shelf I can't open
 
+<img src="./assets/redacted.svg" alt="Redacted document" width="100%">
+
 A real chunk of my work sits behind NDAs — client systems, internal platforms, things with other people's names on them. Here's the shape of it without the names:
 
 | Domain | What I did | Stack |
@@ -70,6 +72,8 @@ Happy to talk through any of it in a conversation. Just can't put it in a repo.
 ---
 
 ### The back catalogue
+
+<img src="./assets/strata.svg" alt="Archaeological strata" width="100%">
 
 Older work. Some of it still running, most of it sitting on a drive somewhere. Category two from above.
 
@@ -156,6 +160,8 @@ No badge wall. If it's on this list I've shipped something with it.
 ---
 
 ### Off the clock
+
+<img src="./assets/shelf.svg" alt="A bookshelf in lamplight" width="100%">
 
 Two things, mostly.
 
